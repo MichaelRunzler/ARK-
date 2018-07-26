@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UX">
+      <UniqueIdentifier>{574410ed-1115-45dc-94c3-76336ef7f89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{917ef749-e58d-4493-b475-145a4a9ad7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{9de73551-8dc9-4b08-8989-1ac028538e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UX\Info">
+      <UniqueIdentifier>{e0d253a7-f2c0-47dc-b0e8-d6ed799cec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UX\Output">
+      <UniqueIdentifier>{c6af9b8a-f68e-4c9d-beca-7a03701f7258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UX\Input">
+      <UniqueIdentifier>{f10d8e1c-490f-48a2-95b7-2067c8dc7ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{ee81d032-5da6-4fa5-92ba-eb6a1f12c01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\UserInteraction">
+      <UniqueIdentifier>{40b2a12b-d77d-406e-a788-9f18556356f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util\Objects">
+      <UniqueIdentifier>{a4c98f76-b738-482b-b356-cfac2b3fdfb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Source Files\UX\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="cli_menu.h">
+      <Filter>Source Files\UX\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="format_tools.h">
+      <Filter>Source Files\UX\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="test_menu_presets.h">
+      <Filter>Source Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="interact.h">
+      <Filter>Source Files\UX\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="VNSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files\UX\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="cli_menu.cpp">
+      <Filter>Source Files\UX\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="format_tools.cpp">
+      <Filter>Source Files\UX\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="test_menu_presets.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="interact.cpp">
+      <Filter>Source Files\UX\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="VNSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ARK++.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
